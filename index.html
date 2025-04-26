@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academia Timekeepers | Learn in the World</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body> 
+
+  <header>
+    <nav>
+  
+    <div id="fa">  <h1>TIMEKEEPERS</h1> <ul>
+        <li class="ha"><a href="index.html">HOME</a></li>
+        <li class="ha"><a href="PROJETO EDUCATIVO.html">PROJETO EDUCATIVO</a></li>
+        <li class="ha"><a href="ajaj.html">ACADEMIA</a></li>
+       
+        <li class="ha"><a href="contact.html">CONTACTOS</a></li>
+        <svg  id="menuIcon" xmlns="http://www.w3.org/2000/svg" height="48px" width="48px" viewBox="0 -960 960 960" fill="#e8eaed">
+          <path id="line1" d="M160-300h640v-80H160Z"/>
+          <path id="line2" d="M160-480h640v-80H160Z"/>
+        </svg>
+       <script src="menu-toggle.js"></script>
+        
+       
+    </ul></div>
+ 
+</nav>
+  </header>
+  
+ 
+
+  <section class="hero">
+    
+    <h2>Aprender naturalmente, em qualquer lugar</h2>
+    <p>Na Timekeepers, o mundo é a sala de aula. Ensinamos com propósito e experiências reais.</p>
+    <button id="cta-button">Inscreva-se ou Apoie</button>
+  </section>
+
+  <section id="sobre">
+    <h2 class="section-title">Sobre a Academia</h2>
+    <p>A Academia Timekeepers oferece uma experiência educacional multidisciplinar que combina natureza, ciência e humanidade. Aqui, crianças aprendem com professores especializados, de forma segura e envolvente.</p>
+  </section>
+
+  <section id="programas">
+    <h2 class="section-title">Programas Educativos</h2>
+    <div class="programs">
+      <div class="card">
+        <h3>Exploradores da Natureza</h3>
+        <p>Aprendizagem ambiental através de trilhos, hortas e observação direta.</p>
+      </div>
+      <div class="card">
+        <h3>Laboratório Vivo</h3>
+        <p>Experiências científicas práticas adaptadas a diferentes faixas etárias.</p>
+      </div>
+      <div class="card">
+        <h3>Artes e Humanidades</h3>
+        <p>Expressão criativa, música, escrita e pensamento crítico.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="impacto">
+    <h2 class="section-title">Impacto Real</h2>
+    <div class="impact">
+      <div class="card">
+        <h3>+150 crianças envolvidas</h3>
+        <p>Projetos ativos em 3 comunidades diferentes.</p>
+      </div>
+      <div class="card">
+        <h3>90% de satisfação familiar</h3>
+        <p>Pais relatam melhorias no bem-estar e curiosidade dos filhos.</p>
+      </div>
+      <div class="card">
+        <h3>Parcerias Sustentáveis</h3>
+        <p>Trabalhamos com ONGs ambientais, universidades e municípios.</p>
+      </div>
+    </div>
+  </section>
+
+
+  
+  <!-- Contato -->
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contacto</h2>
+  
+    <div class="card reveal">
+      <form action="#" method="post" onsubmit="sendEmail(event)">
+
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Seu email" required>
+
+
+        <label for="message">Mensagem</label>
+        <textarea id="message" name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+
+  <footer id="footer2">
+    <div id="neto2"><h1 id="n2">N</h1>  
+     <h1 id="eto2">ETO.HX</h1>
+   </div>
+   <div class="footer-top">
+  
+     <div class="footer-section animated">
+       <h3 data-translate="footer_about">Sobre</h3>
+       <ul>
+         <li><a href="#about" data-translate="footer_who">Quem Sou</a></li>
+         
+         <li><a href="#projects" data-translate="footer_projects">Projetos</a></li>
+       </ul>
+     </div>
+     
+     <div class="footer-section animated">
+       <h3 data-translate="footer_services">Serviços</h3>
+       <ul>
+         <li><a href="#skills" data-translate="footer_skills">Habilidades</a></li>
+         <li><a href="projet.html" data-translate="footer_webdev">Programação em python</a></li>
+         <li><a href="projet.html" data-translate="footer_consult">Consultoria</a></li>
+       </ul>
+     </div>
+ 
+     <div class="footer-section animated">
+       <h3 data-translate="footer_contact">Contato</h3>
+       <ul>
+         <li><a href="#contact" data-translate="footer_contactus">Fale Conosco</a></li>
+         <li><a href="mailto:sequeira.hx@gmail.com">Email: sequeira.hx@gmail.com</a></li>
+         <li><a href="tel:+351963696998">Tel: (351) 963696998</a></li>
+       </ul>
+     </div>
+   </div>
+ 
+  
+ 
+   <div class="social-icons animated">
+     <a href="https://www.youtube.com/@Se-li" target="_blank">
+       <img src="youtube.svg" alt="Youtube">
+     </a>
+     <a href="https://github.com/riboque" target="_blank">
+       <img src="github.svg" alt="GitHub">
+     </a>
+     <a href="https://www.linkedin.com/in/gelson-sequeira-04333b343/" target="_blank">
+       <img src="linkedin.svg" alt="LinkedIn">
+     </a>
+   </div>
+ 
+   <p class="animated">2025 Academia Timekeepers. Todos os direitos reservados.</p>
+ </footer>
+  <!--contact-->
+  <script src="menu-toggle.js"></script>
+  <script>
+    (function() {
+        emailjs.init("ZthBuRan4vISmFG1H"); // Exemplo de ID de usuário do EmailJS
+    })();
+    
+    function sendEmail(event) {
+        event.preventDefault();
+        emailjs.sendForm('service_amtbt9o', 'template_vv4421p', event.target)
+            .then(function() {
+                alert('Email enviado com sucesso!');
+            }, function(error) {
+                alert('Falha ao enviar o email: ' + JSON.stringify(error));
+            });
+    }
+</script>
+  <script>
+    document.getElementById('cta-button').addEventListener('click', function() {
+      alert('Obrigado pelo interesse! Em breve entraremos em contacto.');
+    });
+  </script>
+  
+  
+ 
+</body>
+</html>
