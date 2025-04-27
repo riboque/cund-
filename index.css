@@ -17,16 +17,55 @@ font-family: "Nunito Sans";
 
 
 
-header{height: 100vh;
-   width: 100%;
+header{height: 130vh; z-index: 1000; min-height: 100vh;
+   width: 100%; margin-top: -200px;
    background-position: fixed;
 background-image: url(iStock-1358014313-scaled-1.jpg);
 background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
    object-fit: cover;
-   nav{
+   nav{ z-index: 1000;
+margin-top: 215px;
+
+
    
+    display: flex;
+ 
+  transition: all 1s ease-in-out;
+    width: 1400px;
+    height: 70px;
+
+   
+    border-radius: 50px; /* Bordas arredondadas */
+  
+   
+    margin-left: 50px; /* Centraliza o conteúdo */
+    z-index: 1000; /* Garante que o nav fique acima de outros elementos */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   position: fixed;
     #logo{ display: flex;
 height: 80px;
 width: 300px;
@@ -50,14 +89,14 @@ margin-left: 0px;}
  
     #fa{
     display: flex;
-   margin-left: 930px;
- 
-margin-top: -100px;
+   margin-left: 700px;
+
+margin-top: 00px;
 ul{
     display: flex;
     list-style: none;
-  margin-left: -255px;
-    margin-top: 10px;
+  margin-left: -430px;
+    margin-top: -10px;
  padding: 50px;
     .ha{
         margin-top: -30px;
@@ -71,11 +110,8 @@ ul{
             font-weight: 300;
             text-decoration: none; 
             color: #afa8a8;
-          
-       
-            text-align: center;
-           
-           
+            text-align: center; 
+            opacity: 1;
         }
       
     }
@@ -83,7 +119,10 @@ ul{
           animation: spin 0.5s ease-in-out;
     
         transition: background-color 0.5s, color 0.5s;
-        color: #000;
+      
+        opacity: 1;
+        a{
+            color:#757171;}
          }
   #con{background-color: #00D090;
     width: 150px;
@@ -104,11 +143,24 @@ transform: translate(-50%, -20%);
 }
 
 }
-}
+
+
+
+
+
+
+
+
+#con:hover {
+    animation: spin 0.5s ease-in-out;
+    transition: background-color 0.5s, color 0.5s;
+  
+    background-color: #15ab7e;
+}}
 
 }}
-#letra{height: 100px;
-  width: 1000px;
+#letra{height: 100px; margin-top: 150px;
+  width: 1000px; 
   h1{
     font-size: 52px;
     font-weight: 600;
@@ -116,7 +168,7 @@ transform: translate(-50%, -20%);
     margin-left: 20px;
 text-align: center;
 font-family: "Poppins", sans-serif;
-  margin-top: 200px;
+  margin-top: 500px;
 }
 p{ width: 1400px;
     font-size: 20px;
@@ -128,7 +180,7 @@ p{ width: 1400px;
     margin-top: 20px;
 }}
 
-#links{display: flex; 
+#links{display: flex;  margin-top: 30px;
   #sai{background-color: #0B2A42; margin-left: 20px;
   width: 180px;
 height: 50px;
@@ -200,7 +252,7 @@ display: flex;
 
 
 
-img{
+img{ margin-left: 100px;
     width: 600px;
     height: 550px;
     margin-top: 100px;
@@ -209,7 +261,7 @@ img{
     font-family: "Poppins", sans-serif; 
     font-weight: 600;
     font-size: 18px; margin-top: 100px;
-position: absolute;
+position: absolute; margin-left: 200px;
 transform: translate(492%, 50%);
 
 
@@ -217,7 +269,7 @@ transform: translate(492%, 50%);
 
 
    }
-#sd{   width: 500px;  
+#sd{   width: 500px;   margin-left: 100px;
   height: 700px; margin-top: 40px;
   h1{color:#000000;
     font-family: "Poppins", sans-serif;margin-top: 100px;
@@ -921,6 +973,5 @@ margin-top: 50px;}
   opacity: 1;
   transform: translateY(0);
 }
-
 
        
