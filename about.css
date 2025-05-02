@@ -213,6 +213,71 @@ p{
 
 
 
+@media screen and (max-width: 668px) {  p{font-size: 20px;}
+  header{
+  nav{width: 350px;
+  #logo{
+    margin-left: 0px;
+  }  
+  #fa{ display: none;
+    ul{display: none;
+  
+  
+  #con{display: none;}
+  
+  il{display: none;}}}
+  
+}
+
+  
+
+
+
+
+
+
+}
+main{
+  
+  display: grid;
+  
+  #gaga{display: grid;
+    img{width: 300px; 
+    height: 300px;}
+  
+  
+  #la{margin-left: 0px;
+  
+  h1{width: 300px;}
+  
+  
+  
+  p{width: 300px;}
+  
+  
+  
+  }
+  
+  
+  
+  }
+  
+  
+  #ka{height: 600px; width: 300px;
+  margin-top: 200px;}
+  
+  
+  
+  #lala{display: grid; 
+   margin-left: -200px;
+.verde{margin-top: 10px; }
+}
+}
+footer{display: none;}
+
+
+
+}
 
 
 
